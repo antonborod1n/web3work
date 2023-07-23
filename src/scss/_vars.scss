@@ -1,0 +1,55 @@
+/* COLOR */
+$accent: #F12095;
+$accent2: #00D3A1;
+$text: #A0A3AC;
+$black: #000000;
+$title: #252424;
+
+/* FONTS */
+%unbounded-700 {
+    font-family: 'Unbounded-Bold';
+    font-weight: 700;
+}
+%unbounded-800 {
+    font-family: 'Unbounded-ExtraBold';
+    font-weight: 800;
+}
+%unbounded-300 {
+    font-family: 'Unbounded-Light';
+    font-weight: 300;
+}
+%unbounded-500 {
+    font-family: 'Unbounded-Medium';
+    font-weight: 500;
+}
+%unbounded-400 {
+    font-family: 'Unbounded-Regular';
+    font-weight: 400;
+}
+%unbounded-600 {
+    font-family: 'Unbounded-SemiBold';
+    font-weight: 600;
+}
+%gilroy-700 {
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+}
+
+/* BUTTON */
+%btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 246px;
+    height: 48px;
+    background-color: $accent;
+    @extend %unbounded-700;
+    font-size: 18px;
+    line-height: 25px;
+
+    cursor: pointer;
+}

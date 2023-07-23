@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+</head>
+
+<body>
+    <%= require('html-loader!./templates/header.html').default %>
+        <main class="main">
+            <%= require('html-loader!./templates/first-screen.html').default %>
+            <%= require('html-loader!./templates/block-about.html').default %>
+            <%= require('html-loader!./templates/block-banner.html').default %>
+            <%= require('html-loader!./templates/block-article.html').default %>
+            <%= require('html-loader!./templates/block-familiarize.html').default %>
+            <%= require('html-loader!./templates/block-attention.html').default %>
+            <%= require('html-loader!./templates/block-top.html').default %>
+        </main>
+        <%= require('html-loader!./templates/footer.html').default %>
+</body>
+
+</html>

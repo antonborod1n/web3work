@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Unbounded-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-Bold.woff2') format('woff2'),
+        url('../fonts/Unbounded-Bold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Unbounded-ExtraBold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-Light.woff2') format('woff2'),
+        url('../fonts/Unbounded-Light.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-Medium.woff2') format('woff2'),
+        url('../fonts/Unbounded-Medium.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-Regular.woff2') format('woff2'),
+        url('../fonts/Unbounded-Regular.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Inter-Bold'),
+        url('../fonts/Unbounded-SemiBold.woff2') format('woff2'),
+        url('../fonts/Unbounded-SemiBold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inter-Bold'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-display: swap;
+}
