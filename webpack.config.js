@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const webpack = require('webpack');
-const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -11,6 +11,7 @@ module.exports = {
     index_authorization: path.resolve(__dirname, './src/index_authorization.js'),
     index_vacancies: path.resolve(__dirname, './src/index_vacancies.js'),
     index_сompany: path.resolve(__dirname, './src/index_сompany.js'),
+    index_user: path.resolve(__dirname, './src/index_user.js'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -21,38 +22,44 @@ module.exports = {
       title: 'webpack Boilerplate',
       template: path.resolve(__dirname, './src/template.html'), // шаблон
       filename: 'index.html', // название выходного файла
-      chunks: ['main']
+      chunks: ['main'],
     }),
     new HtmlWebpackPlugin({
       title: 'webpack Boilerplate',
-      template: path.resolve(__dirname, './src/vacancies.html'), 
-      filename: 'vacancies.html', 
-      chunks: ['index_vacancies']
+      template: path.resolve(__dirname, './src/vacancies.html'),
+      filename: 'vacancies.html',
+      chunks: ['index_vacancies'],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/registration.html'),
       filename: 'registration.html',
-      chunks: ['index_registration']
+      chunks: ['index_registration'],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/authorization.html'),
       filename: 'authorization.html',
-      chunks: ['index_authorization']
+      chunks: ['index_authorization'],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/сompany.html'),
       filename: 'сompany.html',
-      chunks: ['index_сompany']
+      chunks: ['index_сompany'],
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/user.html'),
+      filename: 'user.html',
+      chunks: ['index_user'],
     }),
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new CopyPlugin({
       patterns: [
         {
-          from: "src/images", to: "images"
-        }
-      ]
-    })
+          from: 'src/images',
+          to: 'images',
+        },
+      ],
+    }),
   ],
   module: {
     rules: [
@@ -82,13 +89,13 @@ module.exports = {
         test: /\.(html)$/,
         include: path.join(__dirname, 'src/views'),
         use: {
-            loader: 'html-loader',
-            options: {
-                interpolate: true
-            }
-        }
-      } 
-    ]
+          loader: 'html-loader',
+          options: {
+            interpolate: true,
+          },
+        },
+      },
+    ],
   },
 
   mode: 'development',
@@ -96,7 +103,10 @@ module.exports = {
     historyApiFallback: true,
     static: './dist',
     //contentBase: path.resolve(__dirname, './dist'),
-    open: true, compress: true, hot: true, port: 8080,
+    open: true,
+    compress: true,
+    hot: true,
+    port: 8080,
   },
 
   optimization: {
@@ -104,9 +114,9 @@ module.exports = {
       cacheGroups: {
         vendor: {
           test: /[\\/]node_modules[\\/].*\.js$/,
-          chunks: 'all'
-        }
-      }
-    }
-  }
-}
+          chunks: 'all',
+        },
+      },
+    },
+  },
+};

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+
+<script defer src="index_registration.bundle.js"></script></head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="logo__link" href="#">
+                <img class="logo__img" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIyIiBoZWlnaHQ9IjQ1IiB2aWV3Qm94PSIwIDAgMTIyIDQ1IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTIuMjY2NiAxLjc5MTk5VjUuMjI3ODNINy45NDY5OVYxNS42NDYySDQuMzc1VjUuMjI3ODNIMFYxLjc5MTk5SDEyLjI2NjZaTTIyLjA2NTggOC41NTI4M0MyMy4zNTggOS4xODA4NiAyNC4wMDQxIDEwLjIzMzggMjQuMDA0MSAxMS43MTE2QzI0LjAwNDEgMTIuODc1MyAyMy41OTc5IDEzLjgyNjcgMjIuNzg1OCAxNC41NjU1QzIxLjk5MTkgMTUuMjg1OSAyMC44NTY2IDE1LjY0NjIgMTkuMzc5OSAxNS42NDYySDEyLjA5NzVWMS43OTE5OUgxOC44MjYxQzIwLjI4NDQgMS43OTE5OSAyMS40MTA0IDIuMTUyMiAyMi4yMDQzIDIuODcyNjJDMjMuMDE2NSAzLjU5MzAzIDIzLjQyMjYgNC41MzUxMiAyMy40MjI2IDUuNjk4ODdDMjMuNDIyNiA2LjkxODAzIDIyLjk3MDMgNy44NjkzOCAyMi4wNjU4IDguNTUyODNaTTE4LjQ5MzggNC43MjkwN0gxNS40NDc5VjcuMjIyODNIMTguNDkzOEMxOS41MDkxIDcuMjIyODMgMjAuMDE2OCA2LjgwNzIgMjAuMDE2OCA1Ljk3NTk1QzIwLjAxNjggNS4xNDQ3IDE5LjUwOTEgNC43MjkwNyAxOC40OTM4IDQuNzI5MDdaTTE4Ljk2NDYgMTIuNjI2QzE5Ljk5ODMgMTIuNjI2IDIwLjUxNTIgMTIuMTgyNiAyMC41MTUyIDExLjI5NTlDMjAuNTE1MiAxMC45MDggMjAuMzc2NyAxMC42MDMyIDIwLjA5OTggMTAuMzgxNkMxOS44MjI5IDEwLjE1OTkgMTkuNDQ0NSAxMC4wNDkxIDE4Ljk2NDYgMTAuMDQ5MUgxNS40NDc5VjEyLjYyNkgxOC45NjQ2WiIgZmlsbD0iIzI1MjQyNCIvPgo8cGF0aCBkPSJNOC42MjQxNiAyNC4zNjE4QzEwLjQ4ODYgMjQuMzYxOCAxMi4wNzYxIDI1LjA3MyAxMy4zODY4IDI2LjQ5NTRDMTQuNzE1OSAyNy44OTkzIDE1LjM4MDUgMjkuNjI2NCAxNS4zODA1IDMxLjY3NjlDMTUuMzgwNSAzMy43MjczIDE0LjcxNTkgMzUuNDYzNiAxMy4zODY4IDM2Ljg4NkMxMi4wNzYxIDM4LjI4OTkgMTAuNDg4NiAzOC45OTE5IDguNjI0MTYgMzguOTkxOUM2LjY4NTg3IDM4Ljk5MTkgNS4xOTA2MiAzOC4zMTc2IDQuMTM4NCAzNi45NjkxVjQ0LjE0NTZIMC41NjY0MDZWMjQuNzQ5OEg0LjEzODRWMjYuMzg0NkM1LjE5MDYyIDI1LjAzNjEgNi42ODU4NyAyNC4zNjE4IDguNjI0MTYgMjQuMzYxOFpNNS4yMTgzMSAzNC41MDMxQzUuOTM4MjQgMzUuMjIzNSA2Ljg1MjAxIDM1LjU4MzcgNy45NTk2IDM1LjU4MzdDOS4wNjcyIDM1LjU4MzcgOS45ODA5NiAzNS4yMjM1IDEwLjcwMDkgMzQuNTAzMUMxMS40MzkzIDMzLjc2NDIgMTEuODA4NSAzMi44MjIyIDExLjgwODUgMzEuNjc2OUMxMS44MDg1IDMwLjUzMTUgMTEuNDM5MyAyOS41OTg3IDEwLjcwMDkgMjguODc4M0M5Ljk4MDk2IDI4LjEzOTQgOS4wNjcyIDI3Ljc3IDcuOTU5NiAyNy43N0M2Ljg1MjAxIDI3Ljc3IDUuOTM4MjQgMjguMTM5NCA1LjIxODMxIDI4Ljg3ODNDNC40OTgzNyAyOS41OTg3IDQuMTM4NCAzMC41MzE1IDQuMTM4NCAzMS42NzY5QzQuMTM4NCAzMi44MjIyIDQuNDk4MzcgMzMuNzY0MiA1LjIxODMxIDM0LjUwMzFaTTI1LjUxNDQgMjQuNzQ5OEgyOS4wODYzVjM4LjYwMzlIMjUuNTE0NFYzNi45NjkxQzI0LjQ0MzYgMzguMzE3NiAyMi45MzkyIDM4Ljk5MTkgMjEuMDAwOSAzOC45OTE5QzE5LjE1NDkgMzguOTkxOSAxNy41Njc0IDM4LjI4OTkgMTYuMjM4MiAzNi44ODZDMTQuOTI3NiAzNS40NjM2IDE0LjI3MjMgMzMuNzI3MyAxNC4yNzIzIDMxLjY3NjlDMTQuMjcyMyAyOS42MjY0IDE0LjkyNzYgMjcuODk5MyAxNi4yMzgyIDI2LjQ5NTRDMTcuNTY3NCAyNS4wNzMgMTkuMTU0OSAyNC4zNjE4IDIxLjAwMDkgMjQuMzYxOEMyMi45MzkyIDI0LjM2MTggMjQuNDQzNiAyNS4wMzYxIDI1LjUxNDQgMjYuMzg0NlYyNC43NDk4Wk0xOC45MjQyIDM0LjUwMzFDMTkuNjQ0MSAzNS4yMjM1IDIwLjU1NzkgMzUuNTgzNyAyMS42NjU1IDM1LjU4MzdDMjIuNzczMSAzNS41ODM3IDIzLjY4NjggMzUuMjIzNSAyNC40MDY4IDM0LjUwMzFDMjUuMTQ1MSAzMy43NjQyIDI1LjUxNDQgMzIuODIyMiAyNS41MTQ0IDMxLjY3NjlDMjUuNTE0NCAzMC41MzE1IDI1LjE0NTEgMjkuNTk4NyAyNC40MDY4IDI4Ljg3ODNDMjMuNjg2OCAyOC4xMzk0IDIyLjc3MzEgMjcuNzcgMjEuNjY1NSAyNy43N0MyMC41NTc5IDI3Ljc3IDE5LjY0NDEgMjguMTM5NCAxOC45MjQyIDI4Ljg3ODNDMTguMjA0MiAyOS41OTg3IDE3Ljg0NDMgMzAuNTMxNSAxNy44NDQzIDMxLjY3NjlDMTcuODQ0MyAzMi44MjIyIDE4LjIwNDIgMzMuNzY0MiAxOC45MjQyIDM0LjUwMzFaTTM1Ljk4MDUgMzguOTkxOUMzMy44MDIyIDM4Ljk5MTkgMzIuMDM5MyAzOC4yODk5IDMwLjY5MTcgMzYuODg2QzI5LjM2MjYgMzUuNDgyMiAyOC42OTgxIDMzLjY5OTYgMjguNjk4MSAzMS41MzgzQzI4LjY5ODEgMjkuMTczOCAyOS4wNDg4IDI3LjM1NDQgMjkuNzUwMyAyNi4wNzk4QzMwLjQ1MTcgMjQuNzg2NyAzMS44NjM5IDIzLjYxMzcgMzMuOTg2OCAyMi41NjA4QzM0LjMwMDYgMjIuNDEzIDM0Ljc0MzYgMjIuMjA5OSAzNS4zMTU5IDIxLjk1MTJDMzUuODg4MiAyMS42NzQxIDM2LjI3NTggMjEuNDgwMiAzNi40Nzg5IDIxLjM2OTNDMzYuNzAwNCAyMS4yNTg1IDM2Ljk5NTggMjEuMDkyMyAzNy4zNjUgMjAuODcwNkMzNy43MzQxIDIwLjY0ODkgMzcuOTkyNiAyMC40NTUgMzguMTQwMyAyMC4yODg3QzM4LjMwNjQgMjAuMTA0IDM4LjQ4MTggMTkuODczMSAzOC42NjY0IDE5LjU5NkMzOC44NTEgMTkuMzE4OSAzOC45OTg3IDE5LjAxNDEgMzkuMTA5NCAxOC42ODE2TDQyLjA0NDYgMjAuMzcxOUM0MS44MDQ1IDIxLjQ5ODYgNDEuMjYgMjIuMzc2MSA0MC40MTA5IDIzLjAwNDFDMzkuNTgwMiAyMy42MTM3IDM4LjMyNDkgMjQuMjQxOCAzNi42NDUgMjQuODg4M0MzNS40NjM2IDI1LjM1MDEgMzQuNjA1MiAyNS44MTE5IDM0LjA2OTkgMjYuMjczN0MzMy41MzQ1IDI2LjczNTUgMzMuMTQ2OSAyNy4yODk3IDMyLjkwNjkgMjcuOTM2MkMzMy45NDA2IDI2Ljg4MzMgMzUuMzI1MSAyNi4zNTY4IDM3LjA2MDQgMjYuMzU2OEMzOC41OTI1IDI2LjM1NjggMzkuOTU4NiAyNi45MjAzIDQxLjE1ODUgMjguMDQ3MUM0Mi4zNTgzIDI5LjE1NTQgNDIuOTU4MyAzMC42MzMyIDQyLjk1ODMgMzIuNDgwNEM0Mi45NTgzIDM0LjM4MyA0Mi4zMTIyIDM1Ljk0MzkgNDEuMDIgMzcuMTYzMUMzOS43NDYzIDM4LjM4MjMgMzguMDY2NCAzOC45OTE5IDM1Ljk4MDUgMzguOTkxOVpNMzMuNDMzIDM0Ljc4MDJDMzQuMTE2IDM1LjQwODIgMzQuOTU2IDM1LjcyMjMgMzUuOTUyOCAzNS43MjIzQzM2Ljk0OTYgMzUuNzIyMyAzNy43NzExIDM1LjQxNzUgMzguNDE3MiAzNC44MDc5QzM5LjA2MzIgMzQuMTk4MyAzOS4zODYzIDMzLjQyMjUgMzkuMzg2MyAzMi40ODA0QzM5LjM4NjMgMzEuNTM4MyAzOS4wNjMyIDMwLjc2MjUgMzguNDE3MiAzMC4xNTI5QzM3Ljc3MTEgMjkuNTI0OSAzNi45NDA0IDI5LjIxMDggMzUuOTI1MSAyOS4yMTA4QzM1LjAyMDUgMjkuMjEwOCAzNC4yMDgzIDI5LjQ5NzIgMzMuNDg4NCAzMC4wNjk4QzMyLjc4NjkgMzAuNjQyNCAzMi40MzYyIDMxLjQwOSAzMi40MzYyIDMyLjM2OTZDMzIuNDM2MiAzMy4zNDg2IDMyLjc2ODUgMzQuMTUyMiAzMy40MzMgMzQuNzgwMloiIGZpbGw9IiMyNTI0MjQiLz4KPHBhdGggZD0iTTUxLjE0NjQgMjQuNzVIODkuMTIxMUM5Mi4zOTggMjQuNzUgOTUuMDU0NyAyNy40MDgzIDk1LjA1NDcgMzAuNjg3NVYzMS4wODMzVjMxLjQ3OTJDOTUuMDU0NyAzNC43NTgzIDkyLjM5OCAzNy40MTY3IDg5LjEyMTEgMzcuNDE2N0g1MS4xNDY0QzQ3Ljg2OTUgMzcuNDE2NyA0NS4yMTI5IDM0Ljc1ODMgNDUuMjEyOSAzMS40NzkyVjMwLjY4NzVDNDUuMjEyOSAyNy40MDgzIDQ3Ljg2OTUgMjQuNzUgNTEuMTQ2NCAyNC43NVoiIHN0cm9rZT0iI0YxMjA5NSIgc3Ryb2tlLXdpZHRoPSIzIi8+CjxwYXRoIGQ9Ik0zMS4zNjkxIDEuNzkxOTlIMTAyLjU3MkMxMDUuODQ5IDEuNzkxOTkgMTA4LjUwNSA0LjQ1MDMzIDEwOC41MDUgNy43Mjk0OVY4LjEyNTMzVjguNTIxMTZDMTA4LjUwNSAxMS44MDAzIDEwNS44NDkgMTQuNDU4NyAxMDIuNTcyIDE0LjQ1ODdIMzEuMzY5MUMyOC4wOTIxIDE0LjQ1ODcgMjUuNDM1NSAxMS44MDAzIDI1LjQzNTUgOC41MjExNlY3LjcyOTQ5QzI1LjQzNTUgNC40NTAzMyAyOC4wOTIxIDEuNzkxOTkgMzEuMzY5MSAxLjc5MTk5WiIgc3Ryb2tlPSIjRkZEMDAwIiBzdHJva2Utd2lkdGg9IjMiLz4KPHBhdGggZD0iTTEyMS42MzcgMVYxNC44NTQySDExOC4xNDhWMTAuNTMxN0gxMTYuOTAyTDExMy43MTggMTQuODU0MkgxMDkuNTkyTDExMy4wNTMgMTAuMTE2QzExMi4xNjcgOS43NDY1NyAxMTEuNDU3IDkuMTY0NyAxMTAuOTIxIDguMzcwNDJDMTEwLjQwNCA3LjU1NzYxIDExMC4xNDYgNi42ODk0NyAxMTAuMTQ2IDUuNzY1ODNDMTEwLjE0NiA0LjQ3MjggMTEwLjYwNyAzLjM1NTIxIDExMS41MyAyLjQxMzEyQzExMi40NTMgMS40NzEwNCAxMTMuNjYyIDEgMTE1LjE1NyAxSDEyMS42MzdaTTExNS40MzQgNC4xODY0NkMxMTQuOTE4IDQuMTg2NDYgMTE0LjQ4MyA0LjM0MzQ1IDExNC4xMzMgNC42NTc1QzExMy44MDEgNC45NTMwMyAxMTMuNjM1IDUuMzU5NDcgMTEzLjYzNSA1Ljg3NjY3QzExMy42MzUgNi4zNzU0MiAxMTMuODAxIDYuNzcyNiAxMTQuMTMzIDcuMDY4MTNDMTE0LjQ4MyA3LjM2MzY2IDExNC45MTggNy41MTE0NiAxMTUuNDM0IDcuNTExNDZIMTE4LjE0OFY0LjE4NjQ2SDExNS40MzRaIiBmaWxsPSIjMjUyNDI0Ii8+CjxwYXRoIGQ9Ik0xMDguNzg2IDIzLjk1ODJWMjcuMzk0MUgxMDQuNDY3VjM3LjgxMjRIMTAwLjg5NVYyNy4zOTQxSDk2LjUxOTVWMjMuOTU4MkgxMDguNzg2Wk0xMTcuNzY4IDIzLjk1ODJIMTIxLjM0VjM3LjgxMjRIMTE3Ljc2OFYzNi4xNzc2QzExNi42OTcgMzcuNTI2MSAxMTUuMTkzIDM4LjIwMDMgMTEzLjI1NSAzOC4yMDAzQzExMS40MDggMzguMjAwMyAxMDkuODIxIDM3LjQ5ODMgMTA4LjQ5MiAzNi4wOTQ1QzEwNy4xODEgMzQuNjcyMSAxMDYuNTI2IDMyLjkzNTcgMTA2LjUyNiAzMC44ODUzQzEwNi41MjYgMjguODM0OSAxMDcuMTgxIDI3LjEwNzcgMTA4LjQ5MiAyNS43MDM5QzEwOS44MjEgMjQuMjgxNSAxMTEuNDA4IDIzLjU3MDMgMTEzLjI1NSAyMy41NzAzQzExNS4xOTMgMjMuNTcwMyAxMTYuNjk3IDI0LjI0NDYgMTE3Ljc2OCAyNS41OTNWMjMuOTU4MlpNMTExLjE3OCAzMy43MTE2QzExMS44OTggMzQuNDMyIDExMi44MTEgMzQuNzkyMiAxMTMuOTE5IDM0Ljc5MjJDMTE1LjAyNyAzNC43OTIyIDExNS45NCAzNC40MzIgMTE2LjY2IDMzLjcxMTZDMTE3LjM5OCAzMi45NzI3IDExNy43NjggMzIuMDMwNiAxMTcuNzY4IDMwLjg4NTNDMTE3Ljc2OCAyOS43NCAxMTcuMzk4IDI4LjgwNzIgMTE2LjY2IDI4LjA4NjhDMTE1Ljk0IDI3LjM0NzkgMTE1LjAyNyAyNi45Nzg0IDExMy45MTkgMjYuOTc4NEMxMTIuODExIDI2Ljk3ODQgMTExLjg5OCAyNy4zNDc5IDExMS4xNzggMjguMDg2OEMxMTAuNDU4IDI4LjgwNzIgMTEwLjA5OCAyOS43NCAxMTAuMDk4IDMwLjg4NTNDMTEwLjA5OCAzMi4wMzA2IDExMC40NTggMzIuOTcyNyAxMTEuMTc4IDMzLjcxMTZaIiBmaWxsPSIjMjUyNDI0Ii8+Cjwvc3ZnPgo=" alt="Логотип">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Навигация</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Почему именно мы?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Статьи</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burgermenu open-nav-menu">
+                <span></span>
+            </button>
+            <div class="overlay"></div>
+            <div class="user-account">
+                <a class="user-account__link" href="#">
+                    <img class="user-account__img" src="453f3bd9509afdb76a70.png" alt="Пользователь">
+                    <span class="user-account__name">Никита</span>            
+                </a>
+                <div class="user-account__menu">
+                    
+                    <ul class="user-account__lists">
+                        <li class="user-account__item user-account__item-top">
+                            <div class="user-account__img-circle">
+                                <img class="user-account__img" src="453f3bd9509afdb76a70.png" alt="Пользователь">
+                            </div>
+                            <div class="user-account__box">
+                                <span class="user-account__subname">Никита</span>
+                                <span class="user-account__email">nikita2008@gmail.com</span>
+                            </div>
+                        </li>
+                        <li class="user-account__item">
+                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.4454 19.2162L2.57617 10.8116C0.359639 8.44432 0.499219 4.56267 2.87922 2.38389C5.24034 0.22237 8.82043 0.642104 10.6863 3.29919L11 3.74589L11.3137 3.29919C13.1796 0.642104 16.7596 0.22237 19.1208 2.38389C21.5008 4.56267 21.6404 8.44432 19.4238 10.8116L11.5546 19.2162C11.2483 19.5433 10.7517 19.5433 10.4454 19.2162V19.2162Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <a class="user-account__links" href="#">
+                                Избранное
+                            </a>
+                        </li>
+                        <li class="user-account__item">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.7623 11.9232L16.3723 10.7348C16.4381 10.3316 16.4721 9.91994 16.4721 9.50825C16.4721 9.09655 16.4381 8.68486 16.3723 8.28165L17.7623 7.09325C17.8672 7.0035 17.9422 6.88396 17.9775 6.75052C18.0127 6.61709 18.0065 6.47609 17.9597 6.34626L17.9406 6.29108C17.5579 5.22158 16.9849 4.23014 16.2492 3.36465L16.211 3.32009C16.1218 3.21515 16.0028 3.13972 15.8699 3.10373C15.7369 3.06774 15.5961 3.07289 15.4662 3.11848L13.7409 3.73178C13.1042 3.20974 12.3933 2.79804 11.6251 2.50943L11.2919 0.705612C11.2668 0.569884 11.2009 0.445018 11.1031 0.347602C11.0053 0.250186 10.8802 0.184831 10.7444 0.160222L10.6871 0.149611C9.58147 -0.0498703 8.41853 -0.0498703 7.3129 0.149611L7.2556 0.160222C7.11978 0.184831 6.99466 0.250186 6.89686 0.347602C6.79907 0.445018 6.73323 0.569884 6.70809 0.705612L6.37279 2.51792C5.61071 2.80659 4.90102 3.21807 4.27187 3.73603L2.53384 3.11848C2.40389 3.07252 2.26304 3.06719 2.12999 3.1032C1.99694 3.13922 1.878 3.21486 1.78897 3.32009L1.75077 3.36465C1.01597 4.23075 0.443056 5.22203 0.0594242 6.29108L0.0403249 6.34626C-0.0551714 6.61153 0.0233479 6.90863 0.237684 7.09325L1.64466 8.29438C1.57888 8.69335 1.54704 9.1008 1.54704 9.50613C1.54704 9.91358 1.57888 10.321 1.64466 10.7179L0.237684 11.919C0.132841 12.0088 0.0578039 12.1283 0.0225499 12.2617C-0.0127041 12.3952 -0.00650436 12.5362 0.0403249 12.666L0.0594242 12.7212C0.443532 13.7907 1.01227 14.7775 1.75077 15.6476L1.78897 15.6922C1.87821 15.7971 1.99716 15.8725 2.13013 15.9085C2.2631 15.9445 2.40385 15.9394 2.53384 15.8938L4.27187 15.2762C4.90427 15.7962 5.61094 16.2078 6.37279 16.4943L6.70809 18.3066C6.73323 18.4424 6.79907 18.5672 6.89686 18.6647C6.99466 18.7621 7.11978 18.8274 7.2556 18.852L7.3129 18.8626C8.42869 19.0632 9.57131 19.0632 10.6871 18.8626L10.7444 18.852C10.8802 18.8274 11.0053 18.7621 11.1031 18.6647C11.2009 18.5672 11.2668 18.4424 11.2919 18.3066L11.6251 16.5028C12.393 16.215 13.1079 15.8019 13.7409 15.2805L15.4662 15.8938C15.5961 15.9397 15.737 15.9451 15.87 15.909C16.0031 15.873 16.122 15.7974 16.211 15.6922L16.2492 15.6476C16.9877 14.7754 17.5565 13.7907 17.9406 12.7212L17.9597 12.666C18.0552 12.405 17.9767 12.1079 17.7623 11.9232ZM14.8656 8.53206C14.9186 8.85251 14.9462 9.18144 14.9462 9.51037C14.9462 9.8393 14.9186 10.1682 14.8656 10.4887L14.7255 11.3397L16.3108 12.6957C16.0705 13.2493 15.7671 13.7734 15.4067 14.2576L13.4374 13.5594L12.771 14.1069C12.2639 14.5229 11.6994 14.8497 11.0882 15.0789L10.2797 15.3823L9.89979 17.4408C9.30043 17.5087 8.69532 17.5087 8.09597 17.4408L7.71611 15.3781L6.91394 15.0704C6.30913 14.8412 5.74676 14.5144 5.24381 14.1006L4.57746 13.5509L2.59538 14.2555C2.23462 13.7695 1.93327 13.2453 1.69135 12.6936L3.29357 11.3248L3.15563 10.4759C3.1047 10.1597 3.07711 9.83294 3.07711 9.51037C3.07711 9.18568 3.10257 8.861 3.15563 8.5448L3.29357 7.69594L1.69135 6.32716C1.93115 5.77328 2.23462 5.25124 2.59538 4.76527L4.57746 5.46982L5.24381 4.92018C5.74676 4.50636 6.30913 4.17955 6.91394 3.95036L7.71823 3.6469L8.09809 1.58418C8.69441 1.51627 9.30347 1.51627 9.90191 1.58418L10.2818 3.64265L11.0903 3.94612C11.6994 4.17531 12.266 4.50212 12.7732 4.91806L13.4395 5.46557L15.4089 4.76739C15.7696 5.25336 16.071 5.77753 16.3129 6.32928L14.7277 7.68533L14.8656 8.53206ZM9.00212 5.56319C6.9394 5.56319 5.26716 7.23544 5.26716 9.29816C5.26716 11.3609 6.9394 13.0331 9.00212 13.0331C11.0648 13.0331 12.7371 11.3609 12.7371 9.29816C12.7371 7.23544 11.0648 5.56319 9.00212 5.56319ZM10.6829 10.9789C10.4624 11.2 10.2004 11.3753 9.91199 11.4947C9.62354 11.6142 9.31433 11.6754 9.00212 11.675C8.3676 11.675 7.77128 11.4267 7.32139 10.9789C7.10031 10.7584 6.925 10.4965 6.80554 10.208C6.68609 9.91958 6.62484 9.61036 6.62533 9.29816C6.62533 8.66364 6.87362 8.06732 7.32139 7.61742C7.77128 7.16753 8.3676 6.92136 9.00212 6.92136C9.63664 6.92136 10.233 7.16753 10.6829 7.61742C10.9039 7.83787 11.0792 8.09985 11.1987 8.38829C11.3182 8.67674 11.3794 8.98595 11.3789 9.29816C11.3789 9.93268 11.1306 10.529 10.6829 10.9789Z" fill="black"/>
+                            </svg>
+                            <a class="user-account__links" href="#">
+                                Настройки
+                            </a>
+                        </li>
+                        <li class="user-account__item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 10L16 6V9H8V11H16V14M18 16C16.7407 17.6791 14.985 18.9193 12.9817 19.5451C10.9783 20.1709 8.82884 20.1505 6.83772 19.4868C4.8466 18.8231 3.11478 17.5498 1.88758 15.8471C0.660374 14.1444 0 12.0988 0 10C0 7.90118 0.660374 5.85555 1.88758 4.1529C3.11478 2.45024 4.8466 1.17687 6.83772 0.513167C8.82884 -0.15054 10.9783 -0.170937 12.9817 0.454865C14.985 1.08067 16.7407 2.32094 18 4H15.27C14.1153 2.98166 12.6913 2.31814 11.1689 2.08906C9.64643 1.85997 8.09023 2.07506 6.68699 2.7085C5.28376 3.34194 4.09312 4.36683 3.25793 5.66019C2.42274 6.95354 1.9785 8.46042 1.9785 10C1.9785 11.5396 2.42274 13.0465 3.25793 14.3398C4.09312 15.6332 5.28376 16.6581 6.68699 17.2915C8.09023 17.9249 9.64643 18.14 11.1689 17.9109C12.6913 17.6819 14.1153 17.0183 15.27 16H18Z" fill="black"/>
+                            </svg>
+                            <a class="user-account__links" href="#">
+                                Выход
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</header>
+    <main class="main">
+        <section class="authorization-form">
+    <div class="container">
+        <a class="prev" href="#">
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM23 7L1 7L1 9L23 9L23 7Z" fill="#515050"/>
+            </svg>  
+            <span>Назад</span>
+        </a>
+        <form class="form" action="#">
+            <div class="form__inner">
+                <h1 class="form__title">Регистрация</h1>
+                <div class="form__box">
+                    <input class="form__input" type="email" placeholder="Электронная почта">
+                    <div class="form__input-box">
+                        <input class="form__input" type="password" placeholder="Пароль">
+                        <button class="form__hidden-pass"></button>
+                    </div>
+                </div>
+                <div class="form__box">
+                    <button class="form__btn">Продолжить</button>
+                </div>
+                <div class="form__box">
+                    <span>Регистрация через...</span>
+                    <button class="form__btn form__btn-google">Войти через Google</button>
+                    <button class="form__btn form__btn-vk">Войти через VK</button>
+                </div>
+            </div>
+            <div class="form__help">
+                <span>Нужна помощь?</span>
+                <svg class="form__help-arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12" fill="none">
+                    <path d="M9.11612 10.8839C9.60427 11.372 10.3957 11.372 10.8839 10.8839L18.8388 2.92893C19.327 2.44078 19.327 1.64932 18.8388 1.16117C18.3507 0.67301 17.5592 0.67301 17.0711 1.16117L10 8.23223L2.92893 1.16117C2.44078 0.67301 1.64932 0.67301 1.16117 1.16117C0.67301 1.64932 0.67301 2.44078 1.16117 2.92893L9.11612 10.8839ZM8.75 9V10H11.25V9H8.75Z" fill="black"/>
+                </svg>
+            </div>
+            <div class="form__help-answ">
+                <div class="form__help-answ-title">Задай вопрос нашему агенту тех.поддержки в Telegram</div>
+                <p class="form__help-answ-text">
+                    Ответы приходят в течении 24 часов с момента подачи вопроса/жалобы
+                </p>
+                <a class="form__help-answ-link" href="#">Перейти</a>
+            </div>
+        </form>
+    </div>
+</section>
+        
+        </main>
+</body>
+
+</html>
