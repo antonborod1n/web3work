@@ -1,3 +1,6 @@
+const a=1
+
+
 (() => {
     //mobile-menu
     const openNavMenu = document.querySelector(".open-nav-menu"),
@@ -15,7 +18,6 @@
         header.classList.toggle('active')
         document.body.classList.toggle("hidden-scrolling");
     }
-
     navMenu.addEventListener("click", (event) => {
         if (event.target.hasAttribute("data-toggle") && window.innerWidth <= mediaSize) {
             // prevent default anchor click behavior

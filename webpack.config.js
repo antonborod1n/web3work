@@ -10,6 +10,7 @@ module.exports = {
     index_registration: path.resolve(__dirname, './src/index_registration.js'),
     index_authorization: path.resolve(__dirname, './src/index_authorization.js'),
     index_vacancies: path.resolve(__dirname, './src/index_vacancies.js'),
+    index_сompany: path.resolve(__dirname, './src/index_сompany.js'),
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -37,6 +38,11 @@ module.exports = {
       template: path.resolve(__dirname, './src/authorization.html'),
       filename: 'authorization.html',
       chunks: ['index_authorization']
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/сompany.html'),
+      filename: 'сompany.html',
+      chunks: ['index_сompany']
     }),
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
